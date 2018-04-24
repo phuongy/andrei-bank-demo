@@ -1,0 +1,14 @@
+body {
+  font-family: 'SF Pro Display', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

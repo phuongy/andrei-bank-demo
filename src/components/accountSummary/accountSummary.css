@@ -1,0 +1,61 @@
+.accountSummary {
+  position: relative;
+  text-align: center;
+}
+
+.accountName {
+  color: #363D47;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.accountNumber {
+  color: #8A959B;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.accountBalance {
+  background: #26A4E9;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin-bottom: 45px;
+  width: 300px;
+}
+
+.accountBalanceLabel {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.accountBalanceValue {
+  font-size: 64px;
+}
+
+.accountWeeklySpending {
+  align-items: center;
+  background: #363D47;
+  border-radius: 50%;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  height: 128px;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  width: 128px;
+}
+
+.accountWeeklySpendingLabel {
+  font-size: 16px;
+}
+
+.accountWeeklySpendingValue {
+  font-size: 22px;
+}

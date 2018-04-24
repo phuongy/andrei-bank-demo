@@ -1,0 +1,75 @@
+.item {
+  height: 36px;
+  padding: 24px;
+  position: relative;
+}
+
+.item::after {
+  background: #E6E6E6;
+  bottom: 0;
+  content: '';
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: calc(100% - 48px);
+}
+
+.itemAvatar {
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  height: 30px;
+  left: 24px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 30px;
+}
+
+.itemAvatar.blue {
+  border-color: #26A4E9;
+  color: #26A4E9;
+}
+
+.itemAvatar.green {
+  border-color: #7ED321;
+  color: #7ED321;
+}
+.itemAvatar.orange {
+  border-color: #F5A623;
+  color: #F5A623;
+}
+
+.itemTitle {
+  color: #363D47;
+  font-size: 16px;
+  font-weight: 600;
+  left: 76px;
+  position: absolute;
+  top: 24px;
+}
+
+.itemSubtitle {
+  color: #A7B1B6;
+  font-size: 12px;
+  font-weight: 400;
+  left: 76px;
+  position: absolute;
+  top: 46px;
+}
+
+.itemAmount {
+  color: #8A959B;
+  font-size: 16px 24px;
+  font-weight: 500;
+  right: 24px;
+  position: absolute;
+  top: 24px;
+}
+
+.itemAmount .currency {
+  font-weight: 300;
+}
