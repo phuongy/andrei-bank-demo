@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Container from './components/container';
 import { Header, HeaderLeft, HeaderRight } from './components/header';
 import Main from './components/main';
@@ -52,7 +52,7 @@ class App extends Component {
     const { active, visible } = this.state;
 
     return (
-      <div className="wrapper">
+      <Fragment>
         <Container visible={visible}>
           <Header>
             <HeaderLeft>
@@ -83,7 +83,7 @@ class App extends Component {
                   </AccountBalance>
                   <AccountWeeklySpending>
                     <AccountWeeklySpendingLabel>
-                      You’ve spent<br />
+                      You’ve spent
                       <AccountWeeklySpendingValue>
                         <span className="currency">$</span>
                         <strong>
@@ -92,7 +92,6 @@ class App extends Component {
                           })}
                         </strong>
                       </AccountWeeklySpendingValue>
-                      <br />
                       this week
                     </AccountWeeklySpendingLabel>
                   </AccountWeeklySpending>
@@ -126,7 +125,7 @@ class App extends Component {
           visible={visible}
           hideDialog={() => this.setVisible(false)}
         />
-      </div>
+      </Fragment>
     );
   }
 }
