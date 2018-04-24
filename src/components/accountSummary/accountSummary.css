@@ -25,10 +25,10 @@
   display: flex;
   flex-direction: column;
   font-size: 2vh;
-  height: 40vh;
+  height: 42vh;
   justify-content: center;
   margin-bottom: 5vh;
-  width: 40vh;
+  width: 42vh;
 }
 
 .accountBalanceLabel {

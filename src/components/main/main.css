@@ -3,5 +3,6 @@
   display: flex;
   flex: 1 1 auto;
   justify-content: center;
+  overflow: hidden;
   padding: 30px;
 }
